@@ -1,0 +1,13 @@
+How to play ?
+First, choose who you want to play against.
+If you want to play against a friend, type "./allum1 1v1".
+If you want to play against the BOT, "./allum1 BOT".
+After that, type the number of the line, followed by the number of matches
+that you want to remove.
+
+Comment jouer ?
+Tout d'abord, choisissez contre qui vous voulez jouer. 
+Si vous voulez jouer contre un ami, tapez "./allum1 1v1".
+Si vous voulez jouer contre le BOT, tapez "./allum1 BOT".
+Après ça, entrez le numéro de la ligne, suivi par le nombre d'allumettes
+que vous voulez supprimer sur cette dite ligne.
