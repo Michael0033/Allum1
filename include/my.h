@@ -5,7 +5,7 @@
 ** Login   <besnai_m@epitech.net>
 ** 
 ** Started on  Mon Jan 12 13:50:46 2015 michael besnainou
-** Last update Sun Feb 22 17:15:33 2015 michael besnainou
+** Last update Sun Feb 22 23:39:24 2015 michael besnainou
 */
 
 #ifndef			MY_H_
@@ -47,5 +47,6 @@ void			error_manage();
 int			my_strcmp(char *s1, char *s2);
 void			write_winner(int un);
 void			write_looser(int un);
+void			call_main_functions(t_struct *stru, int i);
 
 #endif			/* !MY_H_ */

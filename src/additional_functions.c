@@ -5,7 +5,7 @@
 ** Login   <besnai_m@epitech.net>
 ** 
 ** Started on  Wed Feb 18 19:09:59 2015 michael besnainou
-** Last update Fri Feb 20 16:24:57 2015 michael besnainou
+** Last update Sun Feb 22 23:39:39 2015 michael besnainou
 */
 
 #include "my.h"
@@ -51,4 +51,11 @@ void		count_third_line(int j)
       e = e + 1;
     }
   gere_ia(k);
+}
+
+void		call_main_functions(t_struct *stru, int i)
+{
+  begin_infos();
+  aff_tab(stru);
+  read_user_entry(stru, i);
 }

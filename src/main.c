@@ -5,7 +5,7 @@
 ** Login   <besnai_m@epitech.net>
 **
 ** Started on  Mon Feb  2 17:21:04 2015 michael besnainou
-** Last update Sun Feb 22 17:58:48 2015 michael besnainou
+** Last update Sun Feb 22 23:39:52 2015 michael besnainou
 */
 
 #include <unistd.h>
@@ -77,13 +77,10 @@ int		main(int argc, char **argv)
   int		i;
 
   i = 0;
-  if (argc == 1)
-    {
-      error_manage(4);
-      return (2);
-    }
   if ((stru = malloc(sizeof(t_struct))) == NULL)
     return (2);
+  if (argc == 1)
+    call_main_functions(stru, i);
   if (my_strcmp(argv[1], "1v1") == 0)
     i = i + 1;
   else if (my_strcmp(argv[1], "BOT") == 0)
@@ -93,9 +90,7 @@ int		main(int argc, char **argv)
       error_manage(4);
       return (2);
     }
-  begin_infos();
-  aff_tab(stru);
-  read_user_entry(stru, i);
+  call_main_functions(stru, i);
   free(stru);
   return (0);
 }
