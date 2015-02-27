@@ -5,11 +5,11 @@
 ** Login   <besnai_m@epitech.net>
 ** 
 ** Started on  Mon Jan 12 13:50:46 2015 michael besnainou
-** Last update Sun Feb 22 23:39:24 2015 michael besnainou
+** Last update Mon Feb 23 15:37:11 2015 michael besnainou
 */
 
-#ifndef			MY_H_
-# define		MY_H_
+#ifndef MY_H_
+# define MY_H_
 
 typedef struct		s_struct
 {
@@ -49,4 +49,4 @@ void			write_winner(int un);
 void			write_looser(int un);
 void			call_main_functions(t_struct *stru, int i);
 
-#endif			/* !MY_H_ */
+#endif /* !MY_H_ */
